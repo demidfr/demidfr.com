@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {
+	@apply text-2xl items-start text-yellow
+}
+
+a {
+	@apply hover:bg-foreground hover:text-background
+}
