@@ -3,7 +3,15 @@
 @tailwind utilities;
 
 .navbar {
-	@apply text-2xl items-start text-yellow
+	@apply text-2xl items-start flex justify-between my-20 mx-[72px] w-220
+}
+
+main {
+	@apply w-256 h-screen text-foreground bg-gradient-to-b from-background from-70% via-background/70 via-90%
+}
+
+body {
+	@apply grid place-items-center font-mono tracking-tighter bg-gradient-to-b from-gradstep1 to-gradstep2
 }
 
 a {
