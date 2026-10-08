@@ -15,6 +15,10 @@
   --gb-orange: #fe8019;
 }
 
+@theme {
+  --font-sans: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
 @theme inline {
   --color-gb-bg: var(--gb-bg);
   --color-gb-fg: var(--gb-fg);
